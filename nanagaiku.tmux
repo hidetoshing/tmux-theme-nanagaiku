@@ -13,8 +13,8 @@ tmux set -g status-right-length 160
 tmux set -g status-left " #[fg=colour232,bold]:: #[fg=colour136]#h #[fg=colour232,bold]>> "
 tmux set -g status-right " #[fg=colour232,bold]<< #[fg=white]%H:%M"
 
-tmux setw -g window-status-fg colour246
+tmux setw -g window-status-fg white
 tmux setw -g window-status-bg colour236
-tmux setw -g window-status-current-fg colour220
+tmux setw -g window-status-current-fg colour136
 tmux setw -g window-status-current-bg colour235
 
