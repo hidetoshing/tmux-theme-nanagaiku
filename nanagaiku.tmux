@@ -8,6 +8,7 @@ tmux set -g status-utf8 on
 tmux set -g status-fg default
 tmux set -g status-bg colour236
 tmux set -g status-justify "left"
+tmux set -g status-position top
 tmux set -g status-left-length 160
 tmux set -g status-right-length 160
 tmux set -g status-left " #[fg=colour232,bold]:: #[fg=colour136]#h #[fg=colour232,bold]>> "
